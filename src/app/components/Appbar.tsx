@@ -1,7 +1,7 @@
 "use client";
 import Link from "next/link";
 import { ModeToggle } from "./Themetoggle";
-
+import { Menu } from "lucide-react";
 export default function Appbar() {
   return (
     <div className="flex justify-between p-7     mx-auto   font-mono  items-center  lg:w-[600px]  ">
@@ -16,7 +16,10 @@ export default function Appbar() {
              <ul><Link href={"/"}>Home</Link></ul>
         
       </div>
+        <div>
+        
         <ModeToggle />
+      </div>
     </div>
   );
 }

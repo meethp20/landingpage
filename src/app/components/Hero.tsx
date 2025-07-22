@@ -18,9 +18,9 @@ export default function HeroSection(){
             Astrix 
            </div>
            <div className="dark:text-white/35 font-mono  ">
-            Best ai solution to real world problems
-           </div>
             
+           </div>
+
 
            </div>
         </div>
