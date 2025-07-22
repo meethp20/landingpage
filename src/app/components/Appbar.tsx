@@ -1,12 +1,13 @@
 "use client";
 import Link from "next/link";
+import { ModeToggle } from "./Themetoggle";
 
 export default function Appbar() {
   return (
-    <div className="flex justify-between p-7     mx-auto   font-mono font-sans items-center  lg:w-[600px]  ">
+    <div className="flex justify-between p-7     mx-auto   font-mono  items-center  lg:w-[600px]  ">
       <div>Fake landing </div>
       <div>
-        
+
       </div>
       <div className="flex justify-center gap-x-4 opacity-0 lg:opacity-100 items-center ">
        
@@ -15,6 +16,7 @@ export default function Appbar() {
              <ul><Link href={"/"}>Home</Link></ul>
         
       </div>
+        <ModeToggle />
     </div>
   );
 }

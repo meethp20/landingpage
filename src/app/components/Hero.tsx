@@ -11,14 +11,16 @@ export default function HeroSection(){
   [mask-image:linear-gradient(to_bottom,black_90%,transparent_100%)]
   [mask-repeat:no-repeat]
   backdrop-blur-md
-  text-white
+
+  dark:text-white
+  
   pl-[50px]  mask-gradient relative leading-relaxed ">
             Astrix 
            </div>
-           <div className="text-white/35 font-mono  ">
+           <div className="dark:text-white/35 font-mono  ">
             Best ai solution to real world problems
            </div>
-          
+            
 
            </div>
         </div>
