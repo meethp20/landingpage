@@ -8,12 +8,12 @@ export default function Home() {
       <div className="">
       <HeroSection />
       </div >
-      <div className=" mx-auto w-[300px] grid grid-cols-2 md:grid-2 lg:grid-cols-3">
+      <div className=" mx-auto w-[300px] gap-5 grid grid-cols-2 md:grid-2 lg:grid-cols-2">
        <Card description="We are reliablly fast" title="Quick" />
          <Card description="We are reliablly fast" title="Quick" />
            <Card description="We are reliablly fast" title="Quick" />
-                      <Card description="We are reliablly fast" title="Quick" />  
-         
+           <Card description="We are reliablly fast" title="Quick" />  
+
       </div>
     </div>
   );

@@ -7,11 +7,11 @@ export default function Card({title,description}:{
 
 
     return(
-        <div className="w-[100px] h-[400px] bg-gradient-to black from-slate-700">
-            <div className="font-bold text-gray-300 tracking-tight mx-auto">
+        <div className="w-[150px] h-[300px] flex items-center flex-col bg-gradient-to black border-1 rounded-lg from-slate-700">
+            <div className="font-bold  dark:text-gray-300 light:text-gray-900 p-9 tracking-tight mx-auto">
                 {title}
             </div>
-            <div className="text-gray-400 tracking-wide">
+            <div className="dark:text-gray-400 light:text-gray-800 tracking-wide">
                 {
                     description
                 }
