@@ -39,7 +39,7 @@ export default function Appbar() {
         </ul>
       </div>
       <div className="flex items-center justify-center">
-        <div className="opacity-100 lg:opacity-0"></div>
+        <div className="opacity-100 lg:hidden"></div>
 
         <div onClick={() => onOpen(!open)}>
           <AnimatePresence>
