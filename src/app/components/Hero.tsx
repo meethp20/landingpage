@@ -17,8 +17,8 @@ export default function HeroSection(){
   pl-[50px]  mask-gradient relative leading-relaxed ">
             Astrix 
            </div>
-           <div className="dark:text-white/35 font-mono  ">
-            
+           <div className="dark:text-white/40 pl-14 font-mono  ">
+            Your mom's fav ai platform
            </div>
 
 

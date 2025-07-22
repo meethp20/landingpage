@@ -38,11 +38,11 @@ export default function Appbar() {
           <Link href={"/"}>Home</Link>
         </ul>
       </div>
-      <div className="flex items-center justify-center">
-        <div className="opacity-100 lg:hidden"></div>
+      <div className="flex items-center gap-x-4 justify-center">
+        <div className=" gap-x-4  "></div>
 
-        <div onClick={() => onOpen(!open)}>
-          <AnimatePresence>
+        <div className="block lg:hidden" onClick={() => onOpen(!open)}>
+          <AnimatePresence mode="wait">
             {open ? (
               <MotionX
                 key="X"
