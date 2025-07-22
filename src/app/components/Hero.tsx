@@ -4,14 +4,19 @@
 export default function HeroSection(){
 
     return(
-        <div className=" w-[400px] mx-auto py-8  h-[500px]">
-          <div >
+        <div className=" w-[400px] mx-auto py-8  h-[300px]">
+          <div className="">
 
-           <div className="font-sans text-[60px] text-white-35 mask-gradient relative leading-relaxed ">
-             Dummy hero 
+           <div className=" text-[100px] 
+  [mask-image:linear-gradient(to_bottom,black_90%,transparent_100%)]
+  [mask-repeat:no-repeat]
+  backdrop-blur-md
+  text-white
+  pl-[50px]  mask-gradient relative leading-relaxed ">
+            Astrix 
            </div>
            <div className="text-white/35 font-mono  ">
-            best ai related solutions , we are the best 
+            Best ai solution to real world problems
            </div>
           
 
@@ -19,3 +24,6 @@ export default function HeroSection(){
         </div>
     )
 }
+
+  
+ 
