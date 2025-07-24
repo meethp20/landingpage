@@ -14,9 +14,9 @@ export default function LampDemo() {
           duration: 0.8,
           ease: "easeInOut",
         }}
-        className="mt-8 bg-gradient-to-br from-slate-300 to-slate-500 py-4 bg-clip-text text-center text-4xl font-medium tracking-tight text-transparent md:text-7xl"
+        className="mt-8 bg-gradient-to-br from-sky-400 via-sky-500 to-sky-700 bg-clip-text text-center text-4xl font-medium tracking-tight text-transparent md:text-7xl"
       >
-        Build lamps <br /> the right way
+        Build ai solutions<br /> the right way
       </motion.h1>
     </LampContainer>
   );
@@ -92,10 +92,8 @@ export const LampContainer = ({
           }}
           className="absolute inset-auto z-50 h-0.5 w-[30rem] -translate-y-[7rem] bg-cyan-400 "
         ></motion.div>
-
         <div className="absolute inset-auto z-40 h-44 w-full -translate-y-[12.5rem] bg-slate-950 "></div>
       </div>
-
       <div className="relative z-50 flex -translate-y-80 flex-col items-center px-5">
         {children}
       </div>
