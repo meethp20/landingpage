@@ -13,7 +13,7 @@ export default function BottomBar() {
   ];
   const pathname = usePathname();
   return (
-    <div className="fixed bottom-4 left-1/2 -translate-x-1/2 bg-white dark:bg-neutral-900 border rounded-full shadow-lg gap-4 z-50">
+    <div className="fixed  bg-white dark:bg-neutral-900 border rounded-full shadow-lg gap-4 z-50">
       {navItems.map((items) => {
         const isActive = pathname === items.href;
 
